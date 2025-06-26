@@ -1,0 +1,2 @@
+# filter_dotnet_projects_per_version_of_dotnet
+filter_dotnet_projects_per_version_of_dotnet
