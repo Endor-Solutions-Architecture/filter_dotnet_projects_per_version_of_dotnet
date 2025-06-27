@@ -1,4 +1,4 @@
-## Delete all orphaned package versions
+## Get .net versions of projects
 This script will produce a report of all the dotnet projects and their versions. This will only work for agentless scanned projects and not CLI as it depends on the provisioning result data. 
 ## SETUP
 

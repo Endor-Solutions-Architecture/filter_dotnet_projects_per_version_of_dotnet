@@ -165,7 +165,6 @@ def get_dotnet_projects():
             next_page_id = response_data.get("spec", {}).get("query_response", {}).get("list", {}).get("response", {}).get("next_page_token")
             if not next_page_id:
                 break
-        print(f"dotnet_projects: {dotnet_projects}")
         return dotnet_projects
 
     except requests.RequestException as e:
